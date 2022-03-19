@@ -1,0 +1,33 @@
+img{
+    width: 30%;
+    margin: calc(10%6);
+    padding: 10px 10px;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+
+}
+
+h2:hover{
+    color: chocolate;
+    box-shadow: cyan;
+       transition: all 0.2s; border-color: 0.3s; border: 0.3s ;
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom: #f1f2;
+}
+
+@media screen and (max-width: 650px) {
+  img {
+    width: 100%;
+    display: block;
+   /* padding-left: 10%; */
+
+    
+   
+  } 
+}

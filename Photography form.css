@@ -1,0 +1,38 @@
+body{
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#address{
+     width: 15cm            
+}
+
+#phone{
+               width: 5cm;
+}
+
+#location{
+               width: 5cm;
+}
+
+#name{
+               width: 10cm;
+}
+
+#submit{
+               width: 2cm;
+               height: 1cm;
+               color: white;
+               background-color: rgb(23, 189, 51);
+                transition: all 0.3s; border-color: 0.8s; border: 0.88s ;
+                
+}
+
+#submit:hover{
+    background-color: chocolate;
+    border-color: rgb(41, 136, 41)
+    color: whitesmoke;
+    box-shadow: 0 0.5em 0.5em -0.4em #62f735;
+    transform: translatey(-0.5em);
+    cursor: pointer;
+  
+} 
